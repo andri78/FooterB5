@@ -113,19 +113,20 @@ body{
     margin-left:15px;
     font-size: 20px;
     font-weight: bold;   
-    text-align: left;
+    text-align: center;
 }
 
 .link ul li a{
-  color: #ebc034;
+  color: #46f07e;
   margin-left:10px;
   padding: 5px;
   font-weight: bold;   
-  text-align: left;
+  text-align: right;
+  text-decoration:none;
 }
 
 .social-media ul li a{
-  color: green;  
+  color: #f04646;  
 }
 
 .social-media{
@@ -167,7 +168,6 @@ text-align: center;
 } 
 
 
-
 /* untuk CSS Teks berjalan footer Andri*/
 .marquee {
 height: 35px;background-color:#a19eab;
@@ -183,7 +183,7 @@ text-shadow: 2px 2px 4px #000;
 font-family:Times New Roman;
 padding: auto 0px;
 }
-
+/* untuk CSS image logo di footer Andri*/
 img{
     height: 25px;
     margin-left:15px;   
