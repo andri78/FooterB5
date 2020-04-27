@@ -90,7 +90,7 @@ body{
 }
 
 .image{
-    height: 280px;
+    height: 500px;
     background-image: url(image.jpg);
     background-size: cover;
     background-position: 0 -180px;
@@ -100,43 +100,91 @@ body{
    
 
 /* untuk CSS footer Andri*/
-
 .footer{
     width:770px;
+    height: 330px;
     padding: 15px;
-    background: #8d99f0;
+    background: #a84c32;
     color: #fff;  
+}
+  /* mulai footer */
+.container1 {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;  
+}
+
+.container2 {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.kiri {
+  text-align: left;
+}
+
+.sebelahan {
+  width: 50%;
+  float: left;
+}
+
+.judul h1 {
+  letter-spacing: 12px;
+  text-align: center;
+  padding-bottom: 14px;
+  padding-top: 30px;
+}
+.tombol{
+  background:#2C97DF;
+  color:white;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 20px;
+  border-top: 12px;
+}
+.tombol:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+input, textarea {
+  width:380px ;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-right: 5px;
+  padding: 2px 2px 2px 2px;
+  font-size: 15px;
+  border :1px solid #0a0a0a ;
+  text-align: left;
 }
 
 .menu{
-    color: red;
+    color: white;
     margin-left:15px;
     font-size: 22px;
     font-weight: bold;   
     text-align: center;
 }
 
-.link ul li a{
+.kiri ul li a{
   color: black;
-  margin-left:10px;
-  padding: 5px;
-  font-size: 18px;
+  margin:10px 10px;
+  padding: 0px;
+  font-size: 20px;
   font-weight: bold;   
   text-align: right;
   text-decoration:none;
+  border :0px solid green ;
+
 }
 
-.link ul li a:hover{
+.kiri ul li a:hover{
 background-color: #ada77b;
-}
-
-
-.footer-main-div {
-width: 100%;
-height: auto;
-margin: auto;
-background: #6c8dba;
-padding: 10px 0px;
 }
 
 .footer-social-icons {
@@ -145,60 +193,43 @@ height: 1px;
 margin-top: 30px;
 } 
 .footer-social-icons ul {
-margin: 0px;
+margin: 0px 10px 10px 10px;
 padding: 0px;
-text-align: center;
-} 
+text-align: left;
+}
+
+/*ling luar*/
 .footer-social-icons ul li{
 display: inline-block;
-width: 50px;
-height: 50px;
-margin: 0px 10px;
-border-radius: 20%;
+width: 30px;
+height: 30px;
+margin: 0px 10px 10px 10px;
+border-radius: 30%;
 background: #32CD32;
 } 
+
+/*ukuran icon*/
 .footer-social-icons ul li a {
 color: #272727;
-font-size: 25px;
+font-size: 15px;
 display: block;
 } 
-.footer-social-icons ul li a i{
-line-height: 50px;
-}
+
+/*warna bayang putih*/
 .footer-social-icons ul li:hover{
-background: #ff0000;
-}
-.footer-social-icons ul li:hover a{
 background: #fff;
 }
 
-
+/*posisi icon dalam logo*/
 .fa{
-display: inline-block;
-font: normal normal normal 14px/1 FontAwesome;
-text-rendering: auto;
-width: 14px;
 text-align: center;
 } 
 
 /* untuk CSS Teks berjalan footer Andri*/
 .marquee {
-height: 35px;background-color:#a19eab;
-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#b8bfc4', endColorstr='#a19eab');
-background-image:-webkit-linear-gradient(top, #b8bfc4 0%, #fcfcfc 50%, #a19eab 100%);
-background-image:-moz-linear-gradient(top, #b8bfc4 0%, #fcfcfc 50%, #a19eab 100%);
-background-image:-ms-linear-gradient(top, #b8bfc4 0%, #fcfcfc 50%, #a19eab 100%);
-background-image:-o-linear-gradient(top, #b8bfc4 0%, #fcfcfc 50%, #a19eab 100%);
-background-image:linear-gradient(top, #b8bfc4 0%, #fcfcfc 50%, #a19eab 100%);
+height: 0px;
 font-size: 20px;
-color: red;
-text-shadow: 2px 2px 4px #000;
+color: black;
+text-shadow: 2px 2px 4px white;
 font-family:Times New Roman;
-padding: auto 0px;
 }
-/* untuk CSS image logo di footer Andri*/
-img{
-    height: 25px;
-    margin-left:15px;   
-}
-   
