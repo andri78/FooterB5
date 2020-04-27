@@ -136,13 +136,13 @@ width: 100%;
 height: auto;
 margin: auto;
 background: #6c8dba;
-padding: 20px 0px;
+padding: 10px 0px;
 }
 
 .footer-social-icons {
 width: 100%;
-height: auto;
-margin: auto;
+height: 1px;
+margin-top: 30px;
 } 
 .footer-social-icons ul {
 margin: 0px;
@@ -154,7 +154,7 @@ display: inline-block;
 width: 50px;
 height: 50px;
 margin: 0px 10px;
-border-radius: 100%;
+border-radius: 20%;
 background: #32CD32;
 } 
 .footer-social-icons ul li a {
