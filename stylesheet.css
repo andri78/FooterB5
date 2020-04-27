@@ -111,53 +111,67 @@ body{
 .menu{
     color: red;
     margin-left:15px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;   
     text-align: center;
 }
 
 .link ul li a{
-  color: #46f07e;
+  color: black;
   margin-left:10px;
   padding: 5px;
+  font-size: 18px;
   font-weight: bold;   
   text-align: right;
   text-decoration:none;
 }
 
-.social-media ul li a{
-  color: #f04646;  
+.link ul li a:hover{
+background-color: #ada77b;
 }
 
-.social-media{
-float:right;
+
+.footer-main-div {
+width: 100%;
+height: auto;
+margin: auto;
+background: #6c8dba;
+padding: 20px 0px;
 }
 
-@media screen all and (max-width: 480px) 
-{
-.social-media {
-display:none;
-}
-
-.social-media ul{
-margin: 0;
-padding: 0;
-  }
-}
-.social-media li{
-float: left;
+.footer-social-icons {
+width: 100%;
+height: auto;
+margin: auto;
+} 
+.footer-social-icons ul {
+margin: 0px;
+padding: 0px;
+text-align: center;
+} 
+.footer-social-icons ul li{
+display: inline-block;
+width: 50px;
+height: 50px;
+margin: 0px 10px;
+border-radius: 100%;
+background: #32CD32;
+} 
+.footer-social-icons ul li a {
+color: #272727;
+font-size: 25px;
 display: block;
-margin: 15px 0 0 15px;
+} 
+.footer-social-icons ul li a i{
+line-height: 50px;
 }
-.social-media li a{
-color: #4b4b4b;
-border: 1px solid #4b4b4b;
-padding: 5px 7px;
+.footer-social-icons ul li:hover{
+background: #ff0000;
 }
-.social-media li a:hover{
-color: #ededed;
-border: 1px solid #ededed;
+.footer-social-icons ul li:hover a{
+background: #fff;
 }
+
 
 .fa{
 display: inline-block;
@@ -166,7 +180,6 @@ text-rendering: auto;
 width: 14px;
 text-align: center;
 } 
-
 
 /* untuk CSS Teks berjalan footer Andri*/
 .marquee {
